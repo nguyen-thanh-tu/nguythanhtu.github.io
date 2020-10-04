@@ -1,0 +1,25 @@
+div.stars {
+  display: inline-block;
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+  float: right;
+  font-size: 16px;
+  color: #444;
+  transition: all .2s;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: yellow;
+}
+input.star:hover ~ label.star:before {
+  content: '\f005';
+  color: yellow;
+}
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}

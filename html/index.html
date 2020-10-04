@@ -1,0 +1,228 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Bột Dashi Wakodo Nhật Bản</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<script src="../js/jquery/jquery-3.5.1.min.js"></script>
+	<script src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	<script src="../slick-1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="img-product">
+			<section class="services-slider">
+				<div class="nav-container">
+					<div class="slider-nav">
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="main-container">
+					<div class="slider slider-for">
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+						<div>
+							<img src="../image/trahoaquado.jpg">
+						</div>
+					</div>
+				</div>
+			</section>
+			<script type="text/javascript">
+				$('.slider-for').slick({
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: false,
+					fade: true,
+					asNavFor: '.slider-nav'
+				});
+
+				$('.slider-nav').slick({
+					slidesToShow: 5,
+					asNavFor: '.slider-for',
+					vertical: true,
+					focusOnSelect: true,
+					autoplay: false,
+					centerMode: true
+				});
+
+				$(window).on('resize orientationchange', function() {
+					if ($(window).width() > 1200) {
+						$('.slider-nav').slick('unslick');
+						$('.slider-nav').slick({
+							slidesToShow: 4,
+							asNavFor: '.slider-for',
+							vertical: true,
+							focusOnSelect: true,
+							autoplay: false,
+							centerMode: true
+						});
+					}
+				});
+			</script>
+		</div>
+		<div class="infomation">
+			<h1>Bột Dashi Wakodo Nhật Bản 800G (trên 5 tháng)</h1>
+			<div class="ratingresult" style="display: inline-block;">
+				<div class="fa fa-star-o fa-1">
+					<span style="width: 60%"></span>
+				</div>
+				<span>(2)</span>
+			</div>
+			<br>
+			<br>
+			<p>
+				<h4 class="price">200.000đ</h1>
+					<span>189.000đ</span>
+				</p>
+				<div>
+					<div class="radio">
+						<input id="radio-1" name="radio" type="radio" checked>
+						<label for="radio-1" class="radio-label">Có sữa</label>
+					</div>
+					<div class="radio">
+						<input id="radio-2" name="radio" type="radio">
+						<label  for="radio-2" class="radio-label">Không có sữa</label>
+					</div>
+				</div>
+				<div>
+					<input type="text" name="" class="amount" placeholder="Số lượng *">
+					<button class="addtocart">
+						Thêm vào giỏ hàng
+					</button>
+				</div>
+				<ul class="info">
+					<li>Bổ sung vitamin và nguồn năng lượng cần thiết</li>
+					<li>Bổ sung vitamin và nguồn năng lượng cần thiết</li>
+					<li>Bổ sung vitamin và nguồn năng lượng cần thiết</li>
+				</ul>
+			</div>
+			<div class="delivery-options">
+				<div class="optional-title">
+					<h6>TÙY CHỌN GIAO HÀNG</h6>
+				</div>
+				<div class="place-of-delivery">
+					<div>
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+						<span style="margin-right: 30px;">Cống Vị, Ba Đình, Hà Nội</span>
+						<a class="place-of-delivery-change" href="#">Thay đổi</a>
+					</div>
+				</div>
+				<div class="standard-delivery">
+					<div style="border-bottom: 1px solid #d1d6e5;padding-bottom: 10px;">
+						<i class="fa fa-map-marker" aria-hidden="true" style="position: relative;bottom: 12px;"></i>
+						<div style="display: inline-block;margin-right: 45px;">
+							<span>Giao hàng tiêu chuẩn</span>
+							<br>
+							<span>Nhận hàng sau 3 ngày</span>
+						</div>
+						<span class="standard-delivery-price">Miễn phí</span>
+					</div>
+				</div>
+				<div class="fast-delivery">
+					<div>
+						<i class="fa fa-truck" aria-hidden="true" style="position: relative;bottom: 12px;"></i>
+						<div style="display: inline-block;">
+							<span>Giao hàng nhanh</span>
+							<br>
+							<span>Nhận hàng vào ngày mai</span>
+						</div>
+						<span class="fast-delivery-price">20.000đ</span>
+					</div>
+				</div>
+			</div>
+			<div class="rating">
+				<h5>Đánh giá sản phẩm</h5>
+				<br>
+				<span>Sản phẩm chưa có đánh giá</span>
+				<br>
+				<br>
+				<h6>Viết đánh giá của bạn</h6>
+				<form style="border: 1px solid black; width: 30%;display: inline-block;">
+					<div class="stars" style="width: 100%; border-bottom: 1px solid black; padding: 10px;">
+						<div style="display: inline-block;margin-left: calc(50% - 37px);">
+							<input class="star star-5" id="star-5" type="radio" name="star"/>
+							<label class="star star-5" for="star-5"></label>
+							<input class="star star-4" id="star-4" type="radio" name="star"/>
+							<label class="star star-4" for="star-4"></label>
+							<input class="star star-3" id="star-3" type="radio" name="star"/>
+							<label class="star star-3" for="star-3"></label>
+							<input class="star star-2" id="star-2" type="radio" name="star"/>
+							<label class="star star-2" for="star-2"></label>
+							<input class="star star-1" id="star-1" type="radio" name="star"/>
+							<label class="star star-1" for="star-1"></label>
+						</div>
+					</div>
+					<div>
+						<textarea placeholder="Viết đánh giá của bạn" style="width: 100%;height: 100px;border: none;"></textarea>
+					</div>
+					<div class="upload">
+						<div class="input-file-container">  
+							<input class="input-file" id="my-file" type="file">
+							<label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+						</div>
+					</div>
+					<button type="submit" class="submit">Gửi</button>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		document.querySelector("html").classList.add('js');
+
+		var fileInput  = document.querySelector( ".input-file" ),  
+		button     = document.querySelector( ".input-file-trigger" ),
+		the_return = document.querySelector(".file-return");
+
+		button.addEventListener( "keydown", function( event ) {  
+			if ( event.keyCode == 13 || event.keyCode == 32 ) {  
+				fileInput.focus();  
+			}  
+		});
+		button.addEventListener( "click", function( event ) {
+			fileInput.focus();
+			return false;
+		});  
+		fileInput.addEventListener( "change", function( event ) {  
+    button.innerHTML = this.value;  // trả về tên file
+});  
+</script>
+</html>
